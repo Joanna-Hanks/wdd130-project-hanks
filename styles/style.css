@@ -78,3 +78,70 @@ main {
     margin: 0;
     padding: 8px;
 }
+/* 
+#E8F1F2
+#F5FCF9
+#CFE9DA
+#FBEDEE 
+*/
+
+.heading {
+    font-family: "Merriweather", serif;
+}
+
+.paragraph{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.about_me{
+    background-color: #E8F1F2;
+}
+
+.about_me header{
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid #FBEDEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about_me a{
+    border: 2px solid #FBEDEE;
+    text-decoration: none;
+    color: black;
+    background-color: #CFE9DA;
+    text-align: center;
+
+    width: 8%;
+}
+
+.about_me main{
+    border: 1px solid #FBEDEE;
+
+    padding: 50px 0px;
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+.about_me img{
+    border: 2px solid #FBEDEE;
+    height: 100%;
+
+    grid-column: 2/3;
+}
+.about_me .head{
+    text-align: center;
+}
+.about_me .info{
+    grid-column: 3/4;
+    padding: 40px;
+}
+.about_me .contact{
+    grid-column: 2/4;
+}
+.about_me section{
+    background-color: #CFE9DA;
+    border: 2px solid #FBEDEE;
+}
