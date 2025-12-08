@@ -1,0 +1,147 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.recipe_columns {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    max-width: 1300px;
+}
+
+.column_left, 
+.column.right {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 25px;
+}
+
+.recipe_box {
+    display: flex;
+    background: #F5FCF9;
+    border: 2px solid #CFE9DA;
+    border-radius: 8px;
+    padding: 15px;
+    gap: 15px;
+    min-height: 220px;
+}
+
+
+.recipe_image {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.column_left .recipe_box {
+    flex-direction: row;
+}
+
+.column.right .recipe_box {
+    flex-direction: row-reverse;
+}
+
+.recipe_content, 
+.recipe-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipe_content h3,
+.recipe-content h3 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+
+.ingredients_directions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.ingredients h4,
+.directions h4 {
+    margin: 0 0 5px 0;
+    text-align: center;
+    padding: 4px;
+}
+
+.ingredients p,
+.directions p {
+    margin: 0;
+    padding: 8px;
+}
+/* 
+#E8F1F2
+#F5FCF9
+#CFE9DA
+#FBEDEE 
+*/
+
+.heading {
+    font-family: "Merriweather", serif;
+}
+
+.paragraph{
+    font-family: 'Open Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+}
+
+.about_me{
+    background-color: #E8F1F2;
+}
+
+.about_me header{
+    display: flex;
+    justify-content: space-around;
+
+    border: 1px solid #FBEDEE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.about_me a{
+    border: 2px solid #FBEDEE;
+    text-decoration: none;
+    color: black;
+    background-color: #CFE9DA;
+    text-align: center;
+
+    width: 8%;
+}
+
+.about_me main{
+    border: 1px solid #FBEDEE;
+
+    padding: 50px 0px;
+
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+}
+.about_me img{
+    border: 2px solid #FBEDEE;
+    height: 100%;
+
+    grid-column: 2/3;
+}
+.about_me .head{
+    text-align: center;
+}
+.about_me .info{
+    grid-column: 3/4;
+    padding: 40px;
+}
+.about_me .contact{
+    grid-column: 2/4;
+}
+.about_me section{
+    background-color: #CFE9DA;
+    border: 2px solid #FBEDEE;
+}
