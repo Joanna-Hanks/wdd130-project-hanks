@@ -267,10 +267,17 @@ main {
   font-size: 2rem;
 }
 
+.home .intro-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .home .intro-image img {
   width: 100%;
   max-width: 500px;
-  justify-self: center;
+  height: auto;
 }
 
 /* ---------- Featured recipes ---------- */
