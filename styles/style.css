@@ -127,7 +127,7 @@ main {
 }
 .about_me img{
     border: 2px solid #FBEDEE;
-    height: 100%;
+    width: 100%;
 
     grid-column: 2/3;
 }
